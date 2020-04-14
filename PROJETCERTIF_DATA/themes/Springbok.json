@@ -1,0 +1,13 @@
+{
+
+"name": "Springbok Rugby Team",
+
+"dataColors": ["#007C59" , "#FCB514" , "#E23D28" ,  "#0C1C8C", "#000000", "#1F7C63", "#FFCB54", "#E26E60", "#2F3A8C", "#404040" , "#2FBC94" , "#FFD26D"],
+
+"background":"#FFFFFF",
+
+"foreground": "#007C59",
+
+"tableAccent":"#FCB514"
+
+}

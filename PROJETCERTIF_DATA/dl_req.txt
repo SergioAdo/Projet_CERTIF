@@ -1,0 +1,16 @@
+tensorflow-gpu==2.1.0
+keras
+pillow
+flask
+flask-bootstrap
+gunicorn
+pandas
+numpy
+scikit-learn
+spyder
+jupyter
+seaborn
+altair
+gevent
+jupyterthemes
+jupyter_contrib_nbextensions

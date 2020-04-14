@@ -1,0 +1,11 @@
+pandas
+seaborn
+numpy
+matplotlib
+scikit-learn
+jupyter
+spyder
+altair
+pymongo
+jupyterthemes
+jupyter_contrib_nbextensions

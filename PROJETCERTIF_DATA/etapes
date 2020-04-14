@@ -1,0 +1,76 @@
+Projets certif: creation d'une base de donnees par pbi desktop et visualisation des kpi d'une chaine de distribution
+				utilisation de l'algo 'a priori' pour detecter quels articles sont le plus souvent achetes ensemble afin
+				d'aider a la disposition des rayons
+
+
+1)recuperation des fichiers excels (transactions- creation dossier regroupant 2 fichiers- , clients, calendrier, magasins, retours, produits et regions)
+
+2)controler les types des colonnes (id des regions a transformer en texte, d'autres en nombres entiers, prix en decimales)
+
+3) creation de nouvelles colonnes par table:
+	calendrier : debut de semaine, nom du mois, debut de mois, nom du jour, trimestre et annee
+	clients: annee de naissance, nom complet, a des enfants ou pas
+	produits: colonne prix reduit de 10%, remplacer les valeurs 'null' par 0
+	magasins: zone id en entier
+
+
+4) creation des relations entre les tables avec les cles primaires
+
+5) cacher les cles etrangeres des 2 data tables (transactions et retours) du report view
+	changer toutes les dates et uniformiser au format m/d/yyyy
+	changer ke type des prix en currency $english (product_cost, discount_price, product_retail_price)
+	dans la table clients, change les types de postcode en city, pays et code postal
+	meme chose dans table magasins pour tout ce qui est adresse
+
+6) creation dans calendrier de new colonnes:
+		weekend si jour = saturday | sunday
+		end of month
+
+		new colonnes pour clients:
+		current age
+		priority - si les clients ont des cartes de membre golden
+		short country - 3 premieres lettres du pays
+		home number - chiffres devant le customer address
+
+		new colonnes pour produits:
+		price_tier= pour classer les articles
+
+		new colonne dans magasins:
+		years_since_remodel
+
+
+7)
+
+
+
+SPECIAL THANKs
+mes parents ADOMAYAKPO Victor et Alice
+ma famille de coeur pour leur soutien ALLILI Samir, AMINI Qais, BAGHOUZ Islame, BEN... Haifa, JOSEPH Cedric, LAOUITI Nassim, YBORRA Amandine
+mes formateurs BENCHAKROUNE Driss, DALLARD Benjamin, KHALAL Hatem
+
+
+
+
+
+
+
+
+
+CALCULATED FIELS ON TABLEAU
+
+
+has_children
+IF[Total Children]>0 THEN 'Y' ELSE 'N' END
+
+birth_year
+YEAR(Birthdate)  et convertir en String
+
+full_name
+firstName + " " + LastName
+
+
+ "discount_price", equal to 90% of the original retail price
+ROUND([Product Retail Price]* 0.9, 2)
+
+Replace "null" values with zeros in both the "recyclable" and "low-fat" columns
+

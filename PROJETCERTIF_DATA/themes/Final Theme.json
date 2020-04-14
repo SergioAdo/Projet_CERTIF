@@ -1,0 +1,1359 @@
+{
+  "name": "Orginal Theme",
+  "background": "#464646",
+  "foreground": "#fefefe",
+  "tableAccent": "#fefefe",
+  "dataColors": [
+    "#00A4E4",
+    "#D20962",
+    "#FBB034",
+    "#FFDD00",
+    "#F85A40",
+    "#30C39E",
+    "#DA1884",
+    "#05CC47",
+    "#D4C99E"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "color": {
+              "solid": {}
+            }
+          }
+        ],
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedColumnChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "AreaChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "stackedAreaChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "lineStackedColumnComboChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "lineClusteredColumnComboChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "ribbonChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "preferredCategoryWidth": 20,
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Bottom",
+            "axisScale": "linear",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr",
+            "showAxisTitle": true,
+            "axisStyle": "showBoth",
+            "titleColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "titleText": "Test",
+            "titleFontSize": 11,
+            "titleFontFamily": "B Titr"
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 67
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "treemap": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "map": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "filledMap": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "ShapeMap": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "showTitle": true,
+            "titleText": "Test",
+            "labelColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "funnel": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ]
+      }
+    },
+    "gauge": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "B Titr"
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "gridVerticalWeight": 1,
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "rowPadding": 1,
+            "outlineColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "outlineWeight": 1,
+            "textSize": 11,
+            "imageHeight": 24
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#464646"
+              }
+            },
+            "autoSizeColumnWidth": true,
+            "fontFamily": "B Titr",
+            "fontSize": 11
+          }
+        ]
+      }
+    }
+  }
+}
